@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+h2{
+  
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(169, 169, 169, 0.537);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,button,input{
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+}
+
+form input{
+    border: 2px solid lightgrey;
+    padding-left: 0.50rem;
+    font-size: 1rem;
+    height: 1.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img{
+    max-width: 4rem;
+}
+
+.select-container{
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border-radius: 0.5rem;
+    border: 2px solid lightgrey;
+}
+
+select{
+    height: 1.5rem;
+    width: auto;
+}
+
+.curr_from{
+    border-top: 2px solid lightgrey;
+}
+
+.curr_to{
+    border-top: 2px solid lightgrey;
+}
+
+.msg{
+    margin:20px 0;
+    padding:12px 15px;
+    background:#f1f5ff;
+    border-left:2px solid #3a7bd5;
+    border-radius:6px;
+    font-size:18px;
+    font-weight:600;
+    color:#222;
+    text-align:center;
+}
+
+form button{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    height: 3rem;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+form button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
