@@ -10,14 +10,14 @@ It fetches real-time exchange rates from an API and allows users to convert betw
 - Highlighted exchange rate result
 - Clean card-style modern UI
   
-- ## Technologies Used
+## Technologies Used
 - HTML5
 - CSS3
 - JavaScript (ES6)
 - ExchangeRate API
 - FlagsAPI for country flags
-  
-- ## How to Run the Project
+
+## How to Run the Project
 1. Clone this repository
 2. Open the project folder
 3. Open `index.html` in your browser
